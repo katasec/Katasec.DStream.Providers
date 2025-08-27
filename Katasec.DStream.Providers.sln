@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4128C1FF-BA1E-4FFD-93E5-2CA97B208110}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katasec.DStream.Providers", "src\Katasec.DStream.Providers\Katasec.DStream.Providers.csproj", "{0ED8ECE8-912E-451D-9A69-40B483EC1743}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{ECD3B04D-A0D0-435B-9E8F-77BD170EC724}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katasec.DStream.Providers.Tests", "tests\Katasec.DStream.Providers.Tests\Katasec.DStream.Providers.Tests.csproj", "{0AA26770-5BEB-4DFB-8919-4BE5FE86C823}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0ED8ECE8-912E-451D-9A69-40B483EC1743}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ED8ECE8-912E-451D-9A69-40B483EC1743}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ED8ECE8-912E-451D-9A69-40B483EC1743}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ED8ECE8-912E-451D-9A69-40B483EC1743}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AA26770-5BEB-4DFB-8919-4BE5FE86C823}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AA26770-5BEB-4DFB-8919-4BE5FE86C823}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AA26770-5BEB-4DFB-8919-4BE5FE86C823}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AA26770-5BEB-4DFB-8919-4BE5FE86C823}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0ED8ECE8-912E-451D-9A69-40B483EC1743} = {4128C1FF-BA1E-4FFD-93E5-2CA97B208110}
+		{0AA26770-5BEB-4DFB-8919-4BE5FE86C823} = {ECD3B04D-A0D0-435B-9E8F-77BD170EC724}
+	EndGlobalSection
+EndGlobal
