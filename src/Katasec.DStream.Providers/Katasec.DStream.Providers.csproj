@@ -17,7 +17,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../../../Katasec.DStream.Plugins/src/Katasec.DStream.Plugin/Katasec.DStream.Plugin.csproj" />
+    <PackageReference Include="Katasec.DStream.Plugin" Version="0.0.8" />
   </ItemGroup>
 
 </Project>
